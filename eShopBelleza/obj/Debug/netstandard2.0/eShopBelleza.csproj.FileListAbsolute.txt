@@ -1,0 +1,16 @@
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\bin\Debug\netstandard2.0\eShopBelleza.deps.json
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\bin\Debug\netstandard2.0\eShopBelleza.dll
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\bin\Debug\netstandard2.0\eShopBelleza.pdb
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.csproj.AssemblyReference.cache
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\Views\CatalogView.xaml.g.cs
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.AssemblyInfoInputs.cache
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.AssemblyInfo.cs
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.dll
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\refint\eShopBelleza.dll
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\eShopBelleza.pdb
+C:\Users\Cristian Cardona\Desktop\eShopBellleza\eShopBelleza\eShopBelleza\obj\Debug\netstandard2.0\ref\eShopBelleza.dll

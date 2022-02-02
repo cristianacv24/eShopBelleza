@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="eShopBelleza.Views.CatalogView"
+             Title="CATALOG">
+    <Grid BackgroundColor="AliceBlue" Margin="1">
+        <CollectionView Margin="20,50,20,0" ItemsSource="{Binding Products}"  
+               x:Name="listProducts" >
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout
+                    Orientation="Vertical"
+                    VerticalItemSpacing="20"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Spacing="10" 
+                                 HorizontalOptions="EndAndExpand">
+                        <Frame
+                        Padding="4"
+                        CornerRadius="20"
+                        IsClippedToBounds="False">
+                            <Grid HeightRequest="120">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width=".8*" />
+                                    <ColumnDefinition Width=".6*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height=".9*" />
+                                    <RowDefinition Height=".8*" />
+                                </Grid.RowDefinitions>
+                                <Image Grid.RowSpan="3" Source="{Binding Image}" />
+                                <Label
+                                Grid.Column="1"
+                                FontAttributes="Bold"
+                                FontSize="Large"
+                                Text="{Binding Name}"
+                                VerticalOptions="Center" />
+                                <Label
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                FontSize="Medium"
+                                Text="{Binding Price, StringFormat='{0:C}'}" />
+                                <Label
+                                Grid.Row="2"
+                                Grid.Column="1"
+                                FontSize="Small"
+                                Text="{Binding Stock}" />
+                            </Grid>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{ 
+                                    Binding Path=BindingContext.AlertCommand,
+                                    Source={x:Reference listProducts}}"
+                                                      CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="0"
+               Text="Realizar Pedido"
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               CornerRadius="10"
+               Margin="0, 20, 15, 10"
+               BackgroundColor="#64B5f6"
+              TextColor="White"
+                Command="{Binding MakeAnOrderCommand}"/>
+    </Grid>
+
+</ContentPage>
